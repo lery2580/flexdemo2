@@ -1,0 +1,43 @@
+body{
+    background-color: #fff;
+    color: #fff;
+    font-size: 32px;
+}
+
+.grid{
+display: flex;
+padding: 40px;
+}
+
+.grid-cell{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    flex: 1;
+}
+
+.grid {
+    display: flex;
+  }
+  
+  .grid-cell {
+    flex: 1;
+  }
+  
+  .grid-cell.u-full {
+    flex: 0 0 100%;
+  }
+  
+  .grid-cell.u-1of2 {
+    flex: 0 0 50%;
+  }
+  
+
+  
+  .grid-cell.u-1of4 {
+    flex: 0 0 60%;
+  }

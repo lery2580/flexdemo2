@@ -1,0 +1,44 @@
+.holygrail{
+    font-size: 36px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+header, footer{
+    flex: 1;
+    background-color: darkgrey;
+    
+}
+
+.HolyGrail-body{
+    display: flex;
+    flex: 1;
+    height: 800px;
+   
+}
+
+.HolyGrail-content{
+    flex:1;
+    background-color: darkmagenta;
+}
+
+.HolyGrail-nav, .HolyGrail-ads{
+    flex:0 0 12em;
+}
+
+.HolyGrail-nav{
+    order: -1;
+    background-color: darkblue;
+}
+
+header{
+    height: 200px;
+}
+
+.HolyGrail-ads{
+    background-color: darkred;
+    height: 800px;
+}
