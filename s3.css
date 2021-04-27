@@ -1,0 +1,24 @@
+
+    .main{
+        overflow: hidden;
+        background: #eee;
+       
+    }
+    .left{
+        background: red;
+        width: 200px;
+        height: 100vh;
+        float: left;
+    }    
+    .right{
+        background: blue;
+        width: 200px;
+        height: 100vh;
+        float: right;
+    }
+    .middle{
+        background: green;
+        height: 400px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <style>
+.flex {
+    display: flex;
+    flex-flow: row;
+}
+.left{
+    width: 180px;
+    height: 100px;    
+    background-color: red;
+}
+.main{
+    flex: 1; 
+    height: 100px;
+    background-color: blue;
+}
+.right {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="left">left</div>
+    <div class="main">middle</div>
+    <div class="right">right</div>
+</div>
+</body>
+</html>
